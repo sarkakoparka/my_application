@@ -6,9 +6,9 @@
 
     <TextView
         android:id="@+id/activityTwo"
-        android:layout_width="335dp"
-        android:layout_height="128dp"
-        android:text="Za chwilę przejdziesz do quizu. Czeka Cię 10 pytań. Powodzenia!"
+        android:layout_width="381dp"
+        android:layout_height="122dp"
+        android:text="Za chwilę przejdziesz do quizu. Czeka Cię 7 pytań. Powodzenia!"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="30dp"

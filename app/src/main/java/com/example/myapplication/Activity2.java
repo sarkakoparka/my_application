@@ -52,10 +52,10 @@ public class Activity2 extends AppCompatActivity implements View.OnClickListener
     @Override
     public void onClick(View view) {
 
-        odpA.setBackgroundColor(Color.WHITE);
-        odpB.setBackgroundColor(Color.WHITE);
-        odpC.setBackgroundColor(Color.WHITE);
-        odpD.setBackgroundColor(Color.WHITE);
+        odpA.setBackgroundColor(Color.MAGENTA);
+        odpB.setBackgroundColor(Color.MAGENTA);
+        odpC.setBackgroundColor(Color.MAGENTA);
+        odpD.setBackgroundColor(Color.MAGENTA);
 
         Button clickedButton = (Button) view;
         if(clickedButton.getId()==R.id.submit_btn){
@@ -115,8 +115,9 @@ public class Activity2 extends AppCompatActivity implements View.OnClickListener
                 "Który nie jest językiem programowania?",
                 "Co to jest zip?",
                 "Co zawiera plik AndroidManifest.xml?",
-                "Czy dostaniemy 5tki?",
-
+                "Protokół do swobodnego wysyłania i odbierania danych hipertekstowych to:",
+                "W którym z poniższych języków prograamowania nie używa się średnika na końcu linii?",
+                "Który program może posłużyć do stworzenia grafiki 3D?"
         };
 
         public static String wybory[][]={
@@ -124,7 +125,9 @@ public class Activity2 extends AppCompatActivity implements View.OnClickListener
                 {"Java","Kotlin","Python","Android Studio"},
                 {"rozszerzenie dźwięku", "format kompresji plików", "rozszerzenie obrazka","rozdzaj muzyki"},
                 {"opisuje wszystkie składniki aplikacji na Androida","zapewnia dostęp do zasobów", "wczytuje dane Usera","ustawia aktualny czas"},
-                {"tak", "oczywiście, że tak", "nie widzę innej możliwości", "let's do it!" },
+                {"http", "zdawczo-odbiorczy", "odbiorczo-zdawczy", "ssh" },
+                {"C++", "C#","Python", "Java"},
+                {"Adobe Photoshop", "Adobe InDesign", "Blender", "Gimp"}
         };
 
         public static String poprawneOdpowiedzi[] ={
@@ -132,7 +135,9 @@ public class Activity2 extends AppCompatActivity implements View.OnClickListener
                 "Android Studio",
                 "format kompresji plików",
                 "opisuje wszystkie składniki aplikacji na Androida",
-                "tak",
+                "http",
+                "Python",
+                "Blender"
 
 
 
